@@ -1,0 +1,626 @@
+Script started on 2025-11-12 01:56:58+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="176" LINES="15"]
+[?2004h[0;32m@bjpratt16 [0m➜ [1;34m/workspaces/project-2-group-assignment-group-22/WarehouseFSM [0;36m([1;31mmain[0;36m) [0m$ javac *.java
+[?2004l[?2004h[0;32m@bjpratt16 [0m➜ [1;34m/workspaces/project-2-group-assignment-group-22/WarehouseFSM [0;36m([1;31mmain[0;36m) [0m$ java WarehouseFSMDriver 
+[?2004l
+=== Opening Menu ===
+1) Login as Client
+2) Login as Clerk
+3) Login as Manager
+0) Exit
+Choice: 1
+Enter Client ID or Name: c1
+Unknown client. Please check ID/name.
+
+=== Opening Menu ===
+1) Login as Client
+2) Login as Clerk
+3) Login as Manager
+0) Exit
+Choice: 2
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 1
+Name: c1
+Address: a1
+Added client with ID: C1
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 1
+Name: c2
+Address: a2
+Added client with ID: C2
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 1
+Name: c3
+Address: a3
+Added client with ID: C3
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 1
+Name: c4
+Address: a4
+Added client with ID: C4
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 1
+Name: c5
+Address: a5
+Added client with ID: C5
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 3
+C1 : c1 | balance=0.0
+C2 : c2 | balance=0.0
+C3 : c3 | balance=0.0
+C4 : c4 | balance=0.0
+C5 : c5 | balance=0.0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 0
+
+=== Opening Menu ===
+1) Login as Client
+2) Login as Clerk
+3) Login as Manager
+0) Exit
+Choice: 3
+
+=== Manager Menu ===
+1) Add product
+2) Display waitlist for a product
+3) Receive shipment
+4) Become clerk
+0) Logout
+Choice: 1
+Product name: p1
+Unit price: 1
+Initial quantity: 10
+Added product with ID: P1
+
+=== Manager Menu ===
+1) Add product
+2) Display waitlist for a product
+3) Receive shipment
+4) Become clerk
+0) Logout
+Choice: 1
+Product name: p2
+Unit price: 2
+Initial quantity: 20
+Added product with ID: P2
+
+=== Manager Menu ===
+1) Add product
+2) Display waitlist for a product
+3) Receive shipment
+4) Become clerk
+0) Logout
+Choice: 1
+Product name: p3
+Unit price: 3
+Initial quantity: 30
+Added product with ID: P3
+
+=== Manager Menu ===
+1) Add product
+2) Display waitlist for a product
+3) Receive shipment
+4) Become clerk
+0) Logout
+Choice: 1
+Product name: p4
+Unit price: 4
+Initial quantity: 40
+Added product with ID: P4
+
+=== Manager Menu ===
+1) Add product
+2) Display waitlist for a product
+3) Receive shipment
+4) Become clerk
+0) Logout
+Choice: 1
+Product name: p5
+Unit price: 5
+Initial quantity: 500 
+Added product with ID: P5
+
+=== Manager Menu ===
+1) Add product
+2) Display waitlist for a product
+3) Receive shipment
+4) Become clerk
+0) Logout
+Choice: 4
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 2
+P1 | p1 | $1.0 | qty=10
+P2 | p2 | $2.0 | qty=20
+P3 | p3 | $3.0 | qty=30
+P4 | p4 | $4.0 | qty=40
+P5 | p5 | $5.0 | qty=50
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 6
+Enter Client ID or Name to become: c1
+
+=== Client Menu (Client C1) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p1
+Enter quantity: 5
+Added 5 of p1 (ID P1) to wishlist for client C1.
+
+=== Client Menu (Client C1) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 5
+Wishlist for client C1:
+- P1 (p1) x 5
+
+=== Client Menu (Client C1) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: p3  4
+Enter Product ID or Name: p3
+Enter quantity: 5
+Added 5 of p3 (ID P3) to wishlist for client C1.
+
+=== Client Menu (Client C1) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p5
+Enter quantity: 5
+Added 5 of p5 (ID P5) to wishlist for client C1.
+
+=== Client Menu (Client C1) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 6
+Enter Client ID or Name to become: c1
+
+=== Client Menu (Client C1) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 5
+Wishlist for client C1:
+- P1 (p1) x 5
+- P3 (p3) x 5
+- P5 (p5) x 5
+
+=== Client Menu (Client C1) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 6
+Enter Client ID or Name to become: c2
+
+=== Client Menu (Client C2) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p1
+Enter quantity: 7
+Added 7 of p1 (ID P1) to wishlist for client C2.
+
+=== Client Menu (Client C2) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p2
+Enter quantity: 7
+Added 7 of p2 (ID P2) to wishlist for client C2.
+
+=== Client Menu (Client C2) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p4
+Enter quantity: 7
+Added 7 of p4 (ID P4) to wishlist for client C2.
+
+=== Client Menu (Client C2) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 5
+Wishlist for client C2:
+- P1 (p1) x 7
+- P2 (p2) x 7
+- P4 (p4) x 7
+
+=== Client Menu (Client C2) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 0
+
+=== Opening Menu ===
+1) Login as Client
+2) Login as Clerk
+3) Login as Manager
+0) Exit
+Choice: 1
+Enter Client ID or Name: c3
+
+=== Client Menu (Client C3) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p1
+Enter quantity: 6
+Added 6 of p1 (ID P1) to wishlist for client C3.
+
+=== Client Menu (Client C3) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p2
+Enter quantity: 6
+Added 6 of p2 (ID P2) to wishlist for client C3.
+
+=== Client Menu (Client C3) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 4
+Enter Product ID or Name: p5
+Enter quantity: 6
+Added 6 of p5 (ID P5) to wishlist for client C3.
+
+=== Client Menu (Client C3) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 5
+Wishlist for client C3:
+- P1 (p1) x 6
+- P2 (p2) x 6
+- P5 (p5) x 6
+
+=== Client Menu (Client C3) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 0
+
+=== Opening Menu ===
+1) Login as Client
+2) Login as Clerk
+3) Login as Manager
+0) Exit
+Choice: 1
+Enter Client ID or Name: c2
+
+=== Client Menu (Client C2) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 6
+Order placed for client C2.
+Invoice details:
+Invoice I-0fe4a9ed for C2 @ Wed Nov 12 02:11:36 UTC 2025
+  - p1 (P1) x 7 @ $1.0 = $7.0
+  - p2 (P2) x 7 @ $2.0 = $14.0
+  - p4 (P4) x 7 @ $4.0 = $28.0
+TOTAL: $49.0
+
+=== Client Menu (Client C2) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 0
+
+=== Opening Menu ===
+1) Login as Client
+2) Login as Clerk
+3) Login as Manager
+0) Exit
+Choice: 2
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 3
+C1 : c1 | balance=0.0
+C2 : c2 | balance=49.0
+C3 : c3 | balance=0.0
+C4 : c4 | balance=0.0
+C5 : c5 | balance=0.0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 6
+Enter Client ID or Name to become: c3
+
+=== Client Menu (Client C3) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 6
+Order placed for client C3.
+Invoice details:
+Invoice I-beb137be for C3 @ Wed Nov 12 02:12:04 UTC 2025
+  - p1 (P1) x 3 @ $1.0 = $3.0
+  - p2 (P2) x 6 @ $2.0 = $12.0
+  - p5 (P5) x 6 @ $5.0 = $30.0
+TOTAL: $45.0
+
+=== Client Menu (Client C3) ===
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Show waitlisted items
+0) Logout
+Choice: 0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 3\ 
+C1 : c1 | balance=0.0
+C2 : c2 | balance=49.0
+C3 : c3 | balance=45.0
+C4 : c4 | balance=0.0
+C5 : c5 | balance=0.0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 4
+C2 : c2 | balance=49.0
+C3 : c3 | balance=45.0
+
+=== Clerk Menu ===
+1) Add client
+2) Show products (qty + price)
+3) Show all clients
+4) Show clients with outstanding balance
+5) Record payment from client
+6) Become client
+0) Logout
+Choice: 0
+
+=== Opening Menu ===
+1) Login as Client
+2) Login as Clerk
+3) Login as Manager
+0) Exit
+Choice: 0
+Exiting system. Goodbye.
+[?2004h[0;32m@bjpratt16 [0m➜ [1;34m/workspaces/project-2-group-assignment-group-22/WarehouseFSM [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2025-11-12 02:12:35+00:00 [COMMAND_EXIT_CODE="0"]
